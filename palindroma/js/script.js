@@ -1,8 +1,6 @@
 const btn = document.getElementById("esegui");
 const result = document.getElementById("result");
 
-
-
 function controlloParolaPalindroma(){
 
     const parola = document.getElementById("palin").value;
@@ -22,8 +20,8 @@ function controlloParolaPalindroma(){
         risultato = 'non è una parola polindroma';
     }
     console.log(risultato);
+    result.innerHTML = risultato;
     return risultato;
 }
 
 btn.addEventListener('click', controlloParolaPalindroma);
-/* result.innerHTML = controlloParolaPalindroma(); */ 
