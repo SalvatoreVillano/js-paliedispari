@@ -26,4 +26,4 @@ function controlloParolaPalindroma(){
 }
 
 btn.addEventListener('click', controlloParolaPalindroma);
-result.innerHTML = controlloParolaPalindroma();
+/* result.innerHTML = controlloParolaPalindroma(); */
