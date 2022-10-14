@@ -14,7 +14,7 @@ function controlloParolaPalindroma(){
 
     const parolaInversaStringa = parolaInversa.join('')
 
-    if(parola === parolaInversaStringa){
+    if(parola == parolaInversaStringa){
         risultato = 'è una parola polindroma';
     } else {
         risultato = 'non è una parola polindroma';
